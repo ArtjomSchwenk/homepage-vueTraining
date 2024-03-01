@@ -20,16 +20,17 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 body {
-  margin: 0px;  
+  margin: 0px;
 }
 .banner {
   position: relative;
   text-align: center;
+  height: 15rem;
 }
 img {
-  height: 15rem;
+  height: 100%; 
   width: 100%;
   object-fit: cover;
   filter: blur(2px);
@@ -42,7 +43,6 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 </style>
 

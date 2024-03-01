@@ -18,9 +18,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 body{
-  margin-left: 0px;
+  margin: 0px;
 }
 nav {
   background-color: hsl(225 75% 50%);
