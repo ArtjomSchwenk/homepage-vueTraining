@@ -1,20 +1,20 @@
 <template>
-  <div class="banner"> 
-    <img :src="image">
+  <div class="banner">
+    <img :src="image" />
     <div class="bannerText">
       <h1>Welcome to {{ myName }}'s homepage!</h1>
       <p>🚧This is my test site for learning vuejs und php🚧</p>
-    </div> 
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Banner',
-  data(){
-    return{
-      myName: 'Artjom',
-      image: require('@/assets/sunflowers.jpeg')
+  name: "BannerSection",
+  data() {
+    return {
+      myName: "Artjom",
+      image: require("@/assets/sunflowers.jpeg"),
     };
   },
 };
@@ -30,7 +30,7 @@ body {
   height: 15rem;
 }
 img {
-  height: 100%; 
+  height: 100%;
   width: 100%;
   object-fit: cover;
   filter: blur(2px);
@@ -45,4 +45,3 @@ img {
   transform: translate(-50%, -50%);
 }
 </style>
-
